@@ -1,0 +1,30 @@
+Coloque aqui as logos dos parceiros.
+Nomeie os arquivos assim:
+
+evolve.png
+julio-adnet.png
+bluefit.png
+runway.png
+dominos.png
+sams-club.png
+petz.png
+starvet.png
+baratao.png
+pague-menos.png
+thomas-jefferson.png
+ccaa.png
+colegio-catolica.png
+la-salle.png
+mackenzie.png
+colegio-sigma.png
+gran-cursos.png
+acqua-cerrado.png
+cinemark.png
+kinoplex.png
+nicolandia.png
+casas-bahia.png
+centauro.png
+netshoes.png
+
+Formatos aceitos: PNG, JPG, WEBP
+Resolução recomendada: 600x300px ou superior (landscape)
