@@ -658,6 +658,17 @@ input[type="range"]::-moz-range-thumb {
   margin-top: 8px;
 }
 
+.pricing-micro {
+  font-size: 13px;
+  color: var(--blue);
+  font-weight: 600;
+  margin-top: 10px;
+  background: var(--blue-pale);
+  border-radius: 99px;
+  padding: 5px 14px;
+  display: inline-block;
+}
+
 .pricing-divider {
   text-align: center;
   margin: 18px 0;
