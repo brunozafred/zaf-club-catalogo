@@ -2,8 +2,6 @@
    ZAF CLUB — Landing Page
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
-
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -242,59 +240,16 @@ img { max-width: 100%; display: block; }
 /* hero visual side */
 .hero-visual {
   display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.hero-stat-card {
-  background: rgba(255,255,255,.05);
-  border: 1px solid rgba(255,255,255,.1);
-  border-radius: var(--radius);
-  padding: 20px 24px;
-  backdrop-filter: blur(8px);
-}
-
-.hero-stat-card-val {
-  font-family: 'Outfit', sans-serif;
-  font-size: 36px;
-  font-weight: 900;
-  color: #fff;
-  line-height: 1;
-}
-
-.hero-stat-card-val span { color: #5b9bff; }
-
-.hero-stat-card-label {
-  font-size: 13px;
-  color: #5a7499;
-  margin-top: 4px;
-  font-weight: 500;
-}
-
-.hero-partner-preview {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-.hero-partner-thumb {
-  background: rgba(255,255,255,.06);
-  border: 1px solid rgba(255,255,255,.08);
-  border-radius: 10px;
-  height: 56px;
-  overflow: hidden;
-  display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px;
 }
 
-.hero-partner-thumb img {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
-  mix-blend-mode: screen;
+.hero-mockup {
+  max-height: 500px;
+  width: auto;
+  filter: drop-shadow(0 24px 48px rgba(21,89,212,.35));
 }
+
 
 /* ── TRUST BAR ─────────────────────────────────────────── */
 .trust-bar {
@@ -993,8 +948,9 @@ details.faq-item[open] .faq-arrow svg { color: #fff; }
 @media (max-width: 900px) {
   .calc-grid { grid-template-columns: 1fr; }
   .calc-result { position: static; }
-  .hero-inner { grid-template-columns: 1fr; gap: 40px; }
-  .hero-visual { display: none; }
+  .hero-inner { grid-template-columns: 1fr; gap: 32px; }
+  .hero-visual { order: 2; }
+  .hero-mockup { max-height: 320px; }
   .faq-grid { grid-template-columns: 1fr; }
 }
 
