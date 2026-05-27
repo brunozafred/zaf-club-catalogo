@@ -3,576 +3,472 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ZAF Club — Catálogo de Benefícios</title>
-  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  <title>ZAF Club — Clube de Benefícios</title>
+  <meta name="description" content="ZAF Club dá acesso a descontos reais em mais de 10.000 estabelecimentos — academia, farmácia, escola, cinema e muito mais. Por apenas R$ 14,99/mês." />
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/landing.css" />
 </head>
 <body>
 
-<!-- ════════════════════════════════════════ -->
-<!--                  HERO                  -->
-<!-- ════════════════════════════════════════ -->
-<section class="hero">
-  <img class="hero-logo" src="assets/images/logo.png" alt="ZAF Club" width="200" height="200" />
-  <p class="hero-eyebrow">Clube de Benefícios</p>
-  <h1>Descontos reais nas marcas<br /><em>que você já usa</em></h1>
-  <p class="hero-sub">De academia a cinema, de escola a pet shop — tudo incluso no seu ZAF Club, em todo o Brasil.</p>
-  <div class="hero-divider"></div>
-  <div class="hero-stats">
-    <div class="hero-stat hero-stat--main">
-      <div class="hero-stat-val">+<span>10.000</span></div>
-      <div class="hero-stat-label">estabelecimentos parceiros<br>em todo o Brasil</div>
+<!-- ════ HEADER ════════════════════════════════════════════ -->
+<header class="site-header">
+  <a href="/">
+    <img class="header-logo" src="/assets/images/logo.png" alt="ZAF Club" width="56" height="56" />
+  </a>
+  <div class="header-cta">
+    <a href="#plano" class="btn btn-outline">Ver planos</a>
+    <a href="#plano" class="btn btn-primary">Assinar agora</a>
+  </div>
+</header>
+
+<!-- ════ HERO ══════════════════════════════════════════════ -->
+<section class="hero" id="inicio">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge">✦ Clube de Benefícios</div>
+      <h1>Sua família pagando<br /><em>menos todo mês.</em></h1>
+      <p class="hero-sub">
+        ZAF Club conecta você a mais de <strong style="color:#fff">10.000 estabelecimentos parceiros</strong> em todo o Brasil.
+        Academia, farmácia, escola, cinema e muito mais — tudo com desconto real na palma da sua mão.
+      </p>
+      <div class="hero-actions">
+        <div class="hero-cta-main">
+          <a href="#plano" class="btn btn-primary btn-lg">Começar a economizar</a>
+          <span style="font-size:13px;color:#4a6480">12x de <strong style="color:#fff">R$&nbsp;14,99</strong>/mês</span>
+        </div>
+        <div class="hero-trust">
+          <span class="hero-trust-item">
+            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            Sem taxa de adesão
+          </span>
+          <span class="hero-trust-item">
+            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            Ativação imediata
+          </span>
+          <span class="hero-trust-item">
+            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            Cancele quando quiser
+          </span>
+        </div>
+      </div>
     </div>
-    <div class="hero-stat-sep"></div>
-    <div class="hero-stat">
-      <div class="hero-stat-val"><span>100%</span></div>
-      <div class="hero-stat-label">Cobertura nacional</div>
+    <div class="hero-visual">
+      <div class="hero-stat-card">
+        <div class="hero-stat-card-val">+<span>10.000</span></div>
+        <div class="hero-stat-card-label">estabelecimentos parceiros no Brasil</div>
+      </div>
+      <div class="hero-partner-preview">
+        <div class="hero-partner-thumb"><img src="/assets/images/parceiros/evolve.png"      alt="Evolve" /></div>
+        <div class="hero-partner-thumb"><img src="/assets/images/parceiros/bluefit.png"     alt="BlueFit" /></div>
+        <div class="hero-partner-thumb"><img src="/assets/images/parceiros/dominos.png"     alt="Domino's" /></div>
+        <div class="hero-partner-thumb"><img src="/assets/images/parceiros/cinemark.png"    alt="Cinemark" /></div>
+        <div class="hero-partner-thumb"><img src="/assets/images/parceiros/petz.png"        alt="Petz" /></div>
+        <div class="hero-partner-thumb"><img src="/assets/images/parceiros/gran-cursos.png" alt="Gran Cursos" /></div>
+      </div>
+      <div class="hero-stat-card" style="background:rgba(21,89,212,.15);border-color:rgba(21,89,212,.3)">
+        <div class="hero-stat-card-val" style="font-size:22px">Por <span>R$ 14,99</span>/mês</div>
+        <div class="hero-stat-card-label">acesso a todos os benefícios</div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ════════════════════════════════════════ -->
-<!--                  MAIN                  -->
-<!-- ════════════════════════════════════════ -->
-<main>
+<!-- ════ TRUST BAR ═════════════════════════════════════════ -->
+<div class="trust-bar">
+  <div class="trust-bar-inner">
+    <div class="trust-item"><span class="trust-item-icon">⚡</span> +10.000 parceiros ativos</div>
+    <div class="trust-item"><span class="trust-item-icon">🇧🇷</span> Todo o Brasil</div>
+    <div class="trust-item"><span class="trust-item-icon">👨‍👩‍👧</span> Válido para toda a família</div>
+    <div class="trust-item"><span class="trust-item-icon">✅</span> Sem fidelidade</div>
+  </div>
+</div>
 
-  <!-- ╔══════════════════════════════════╗ -->
-  <!-- ║          EM DESTAQUE            ║ -->
-  <!-- ╚══════════════════════════════════╝ -->
-  <section class="section-destaques">
-    <div class="section-header">
-      <h2 class="section-title"><span class="star">✦</span> Em Destaque</h2>
-      <div class="section-line"></div>
-      <span class="section-count">6 parceiros</span>
+<!-- ════ PARTNERS ══════════════════════════════════════════ -->
+<section class="section partners-section" id="parceiros">
+  <div class="section-inner">
+    <div class="section-header" style="text-align:center">
+      <p class="section-label">Onde seu dinheiro vai mais longe</p>
+      <h2 class="section-title">Reconhece essas marcas?</h2>
+      <p class="section-sub" style="margin:0 auto">São todas parceiras ZAF Club — e você já gasta nelas. Agora com desconto real.</p>
     </div>
-    <div class="partners-grid">
+    <div class="partners-grid-landing">
 
-      <!-- Nicolândia -->
-      <article class="partner-card partner-card--featured">
-        <div class="card-img card-img--featured">
-          <img src="assets/images/parceiros/nicolandia.png" alt="Nicolândia" loading="eager" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🎡 Parque</div>
-          <div class="card-destaque-badge">✦ Destaque</div>
+      <div class="partner-tile">
+        <div class="partner-tile-img"><img src="/assets/images/parceiros/evolve.png" alt="Evolve" loading="lazy" /></div>
+        <div class="partner-tile-body">
+          <span class="partner-tile-cat">Academia</span>
+          <div class="partner-tile-name">Evolve</div>
+          <div class="partner-tile-discount">R$ 119,90/mês (de R$ 149,90)</div>
         </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Nicolândia</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">R$ 39,00<small>Passaporte individual — preço fixo exclusivo</small></span></span>
-            </li>
-          </ul>
-        </div>
-      </article>
+      </div>
 
-      <!-- Acqua Cerrado -->
-      <article class="partner-card partner-card--featured">
-        <div class="card-img card-img--featured">
-          <img src="assets/images/parceiros/acqua-cerrado.png" alt="Acqua Cerrado Park Hotel" loading="eager" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🏨 Hotel & Clube</div>
-          <div class="card-destaque-badge">✦ Destaque</div>
+      <div class="partner-tile">
+        <div class="partner-tile-img"><img src="/assets/images/parceiros/bluefit.png" alt="BlueFit" loading="lazy" /></div>
+        <div class="partner-tile-body">
+          <span class="partner-tile-cat">Academia</span>
+          <div class="partner-tile-name">BlueFit</div>
+          <div class="partner-tile-discount">R$ 139,90/mês — Plano Gold</div>
         </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Acqua Cerrado Park Hotel</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">De <s style="opacity:.45;font-size:75%">R$&nbsp;390,00</s> por apenas R$ 200,00<small>Cartão Acqua — validade 1 ano</small></span></span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span>Acesso ao Clube Itiquira Park + Clube Acqua Cerrado</span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val">50% OFF</span> Passaporte Nicolândia · <span class="val">30% OFF</span> Clínica Matsumoto</span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val">35% OFF</span> Lab. Exato · <span class="val">15% OFF</span> Óticas Requinth</span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val">10% cashback</span> nas 6 primeiras parcelas — Consórcio Ademicon</span>
-            </li>
-          </ul>
-        </div>
-      </article>
+      </div>
 
-      <!-- Evolve -->
-      <article class="partner-card partner-card--featured">
-        <div class="card-img card-img--featured">
-          <img src="assets/images/parceiros/evolve.png" alt="Evolve" loading="eager" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🏋️ Academia</div>
-          <div class="card-destaque-badge">✦ Destaque</div>
+      <div class="partner-tile">
+        <div class="partner-tile-img"><img src="/assets/images/parceiros/dominos.png" alt="Domino's Pizza" loading="lazy" /></div>
+        <div class="partner-tile-body">
+          <span class="partner-tile-cat">Alimentação</span>
+          <div class="partner-tile-name">Domino's Pizza</div>
+          <div class="partner-tile-discount">30% OFF no delivery</div>
         </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Evolve</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">De <s style="opacity:.45;font-size:75%">R$&nbsp;149,90</s> por R$ 119,90<small>mensalidade com ZAF Club</small></span></span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span>Economize <span class="val">R$ 360,00 por ano</span> na academia!</span>
-            </li>
-          </ul>
-        </div>
-      </article>
+      </div>
 
-      <!-- BlueFit -->
-      <article class="partner-card partner-card--featured">
-        <div class="card-img card-img--featured">
-          <img src="assets/images/parceiros/bluefit.png" alt="BlueFit" loading="eager" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🏋️ Academia</div>
-          <div class="card-destaque-badge">✦ Destaque</div>
+      <div class="partner-tile">
+        <div class="partner-tile-img"><img src="/assets/images/parceiros/sams-club.png" alt="Sam's Club" loading="lazy" /></div>
+        <div class="partner-tile-body">
+          <span class="partner-tile-cat">Atacado</span>
+          <div class="partner-tile-name">Sam's Club</div>
+          <div class="partner-tile-discount">50% OFF na assinatura</div>
         </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">BlueFit</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">R$ 139,90<small>Plano Gold Convênio — 12 meses</small></span></span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span>Todas as unidades + aulas coletivas · sem restrição de horários</span>
-            </li>
-          </ul>
-        </div>
-      </article>
+      </div>
 
-      <!-- La Salle -->
-      <article class="partner-card partner-card--featured">
-        <div class="card-img card-img--featured">
-          <img src="assets/images/parceiros/la-salle.png" alt="Colégio La Salle" loading="eager" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🏫 Colégio</div>
-          <div class="card-destaque-badge">✦ Destaque</div>
+      <div class="partner-tile">
+        <div class="partner-tile-img"><img src="/assets/images/parceiros/cinemark.png" alt="Cinemark" loading="lazy" /></div>
+        <div class="partner-tile-body">
+          <span class="partner-tile-cat">Cinema</span>
+          <div class="partner-tile-name">Cinemark</div>
+          <div class="partner-tile-discount">Ingresso 2D por R$ 24,20</div>
         </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Colégio La Salle</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">Até R$ 2.520,00<small>de desconto por ano, por aluno</small></span></span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val">10% OFF</span> nas mensalidades — todos os níveis de ensino</span>
-            </li>
-          </ul>
-          <p style="font-size:11px;color:var(--muted);margin-top:12px">Na mensalidade do Ensino Médio: R$ 2.100,00</p>
-        </div>
-      </article>
+      </div>
 
-      <!-- Mackenzie -->
-      <article class="partner-card partner-card--featured">
-        <div class="card-img card-img--featured">
-          <img src="assets/images/parceiros/mackenzie.png" alt="Colégio Mackenzie" loading="eager" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🏫 Colégio</div>
-          <div class="card-destaque-badge">✦ Destaque</div>
+      <div class="partner-tile">
+        <div class="partner-tile-img"><img src="/assets/images/parceiros/kinoplex.png" alt="Kinoplex" loading="lazy" /></div>
+        <div class="partner-tile-body">
+          <span class="partner-tile-cat">Cinema</span>
+          <div class="partner-tile-name">Kinoplex</div>
+          <div class="partner-tile-discount">Ingresso 2D por R$ 19,00</div>
         </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Col. Presbiteriano Mackenzie</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">Até R$ 7.876,80<small>de economia por ano!</small></span></span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span>Ed. Infantil · Fundamental · Médio: <span class="val">15% OFF</span></span>
-            </li>
-          </ul>
-          <p style="font-size:11px;color:var(--muted);margin-top:12px">Na mensalidade do ensino médio (1ª à 3ª série): R$ 4.376,00</p>
+      </div>
+
+      <div class="partner-tile">
+        <div class="partner-tile-img"><img src="/assets/images/parceiros/petz.png" alt="Petz" loading="lazy" /></div>
+        <div class="partner-tile-body">
+          <span class="partner-tile-cat">Pet Shop</span>
+          <div class="partner-tile-name">Petz</div>
+          <div class="partner-tile-discount">10% OFF em todo o site</div>
         </div>
-      </article>
+      </div>
+
+      <div class="partner-tile">
+        <div class="partner-tile-img"><img src="/assets/images/parceiros/pague-menos.png" alt="Pague Menos" loading="lazy" /></div>
+        <div class="partner-tile-body">
+          <span class="partner-tile-cat">Farmácia</span>
+          <div class="partner-tile-name">Farmácia Pague Menos</div>
+          <div class="partner-tile-discount">Até 25% OFF em medicamentos</div>
+        </div>
+      </div>
+
+      <div class="partner-tile">
+        <div class="partner-tile-img"><img src="/assets/images/parceiros/gran-cursos.png" alt="Gran Cursos" loading="lazy" /></div>
+        <div class="partner-tile-body">
+          <span class="partner-tile-cat">Educação</span>
+          <div class="partner-tile-name">Gran Cursos Online</div>
+          <div class="partner-tile-discount">30% OFF em todos os cursos</div>
+        </div>
+      </div>
+
+      <div class="partner-tile">
+        <div class="partner-tile-img"><img src="/assets/images/parceiros/la-salle.png" alt="La Salle" loading="lazy" /></div>
+        <div class="partner-tile-body">
+          <span class="partner-tile-cat">Colégio</span>
+          <div class="partner-tile-name">Colégio La Salle</div>
+          <div class="partner-tile-discount">Até R$ 2.520,00/ano por aluno</div>
+        </div>
+      </div>
+
+      <div class="partner-tile">
+        <div class="partner-tile-img"><img src="/assets/images/parceiros/netshoes.png" alt="Netshoes" loading="lazy" /></div>
+        <div class="partner-tile-body">
+          <span class="partner-tile-cat">Esportes</span>
+          <div class="partner-tile-name">Netshoes</div>
+          <div class="partner-tile-discount">Até 60% OFF</div>
+        </div>
+      </div>
+
+      <div class="partner-tile">
+        <div class="partner-tile-img"><img src="/assets/images/parceiros/casas-bahia.png" alt="Casas Bahia" loading="lazy" /></div>
+        <div class="partner-tile-body">
+          <span class="partner-tile-cat">Varejo</span>
+          <div class="partner-tile-name">Casas Bahia</div>
+          <div class="partner-tile-discount">Até 25% OFF</div>
+        </div>
+      </div>
 
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ╔══════════════════════════════════╗ -->
-  <!-- ║       TODOS OS PARCEIROS        ║ -->
-  <!-- ╚══════════════════════════════════╝ -->
-  <section class="section-todos">
-    <div class="section-header">
-      <h2 class="section-title">Todos os Parceiros</h2>
-      <div class="section-line"></div>
-      <span class="section-count">18 parceiros</span>
+<!-- ════ CALCULATOR ════════════════════════════════════════ -->
+<section class="section calculator-section" id="calculadora">
+  <div class="section-inner">
+    <div class="section-header" style="text-align:center">
+      <p class="section-label">Descubra sua economia</p>
+      <h2 class="section-title">Calcule quanto você pode economizar</h2>
+      <p class="section-sub" style="margin:0 auto">Informe quanto você gasta por mês em cada categoria e veja a economia real com o ZAF Club.</p>
     </div>
-    <div class="partners-grid">
+    <div class="calc-grid">
 
-      <!-- Julio Adnet -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/julio-adnet.png" alt="Julio Adnet" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🏋️ Academia</div>
-        </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Julio Adnet</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val">50% OFF</span> na taxa de adesão</span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val">10% OFF</span> na mensalidade — plano anual</span>
-            </li>
-          </ul>
-        </div>
-      </article>
+      <!-- SLIDERS -->
+      <div class="calc-sliders">
 
-      <!-- RunWay -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/runway.png" alt="RunWay" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🏋️ Academia</div>
+        <div class="calc-slider-row">
+          <div class="calc-slider-header">
+            <span class="calc-slider-label">🎬 Ingressos de cinema</span>
+            <span class="calc-slider-discount">50% OFF</span>
+          </div>
+          <div class="calc-slider-value-row">
+            <input type="range" class="calc-range" data-key="ingressos" min="0" max="20" step="1" value="0" />
+            <span class="calc-val-display" id="val-ingressos">0 ingressos</span>
+          </div>
         </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">RunWay</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val">12% OFF</span> no plano anual</span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span>Adesão por <span class="val">R$ 240,00</span></span>
-            </li>
-          </ul>
-        </div>
-      </article>
 
-      <!-- Domino's Pizza -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/dominos.png" alt="Domino's Pizza" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🍕 Alimentação</div>
+        <div class="calc-slider-row">
+          <div class="calc-slider-header">
+            <span class="calc-slider-label">💊 Medicamentos</span>
+            <span class="calc-slider-discount">20% OFF</span>
+          </div>
+          <div class="calc-slider-value-row">
+            <input type="range" class="calc-range" data-key="medicamentos" min="0" max="1000" step="20" value="0" />
+            <span class="calc-val-display" id="val-medicamentos">R$ 0</span>
+          </div>
         </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Domino's Pizza</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">30% OFF<small>no cardápio de pizzas via delivery</small></span></span>
-            </li>
-          </ul>
-        </div>
-      </article>
 
-      <!-- Sam's Club -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/sams-club.png" alt="Sam's Club" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🛒 Atacado</div>
+        <div class="calc-slider-row">
+          <div class="calc-slider-header">
+            <span class="calc-slider-label">📚 Mensalidade de cursos</span>
+            <span class="calc-slider-discount">25% OFF</span>
+          </div>
+          <div class="calc-slider-value-row">
+            <input type="range" class="calc-range" data-key="cursos" min="0" max="3000" step="50" value="0" />
+            <span class="calc-val-display" id="val-cursos">R$ 0</span>
+          </div>
         </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Sam's Club</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">50% OFF<small>na assinatura Sam's Club</small></span></span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val">+ R$ 100,00</span> de desconto na 1ª compra</span>
-            </li>
-          </ul>
-        </div>
-      </article>
 
-      <!-- Petz -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/petz.png" alt="Petz" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🐾 Pet Shop</div>
+        <div class="calc-slider-row">
+          <div class="calc-slider-header">
+            <span class="calc-slider-label">🏫 Escola dos filhos</span>
+            <span class="calc-slider-discount">20% OFF</span>
+          </div>
+          <div class="calc-slider-value-row">
+            <input type="range" class="calc-range" data-key="escolas" min="0" max="5000" step="100" value="0" />
+            <span class="calc-val-display" id="val-escolas">R$ 0</span>
+          </div>
         </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Petz</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">10% OFF<small>em todo o site Petz</small></span></span>
-            </li>
-          </ul>
-        </div>
-      </article>
 
-      <!-- StarVet -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/starvet.png" alt="StarVet" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🏥 Veterinário</div>
+        <div class="calc-slider-row">
+          <div class="calc-slider-header">
+            <span class="calc-slider-label">🍽️ Restaurantes</span>
+            <span class="calc-slider-discount">30% OFF</span>
+          </div>
+          <div class="calc-slider-value-row">
+            <input type="range" class="calc-range" data-key="restaurantes" min="0" max="2000" step="50" value="0" />
+            <span class="calc-val-display" id="val-restaurantes">R$ 0</span>
+          </div>
         </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">StarVet</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val">10% OFF</span> programas Pró-Saúde Basic e Standard</span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val">15% OFF</span> em qualquer procedimento hospitalar</span>
-            </li>
-          </ul>
-        </div>
-      </article>
 
-      <!-- Baratão -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/baratao.png" alt="Baratão Combustíveis" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">⛽ Combustível</div>
+        <div class="calc-slider-row">
+          <div class="calc-slider-header">
+            <span class="calc-slider-label">🏋️ Mensalidade da academia</span>
+            <span class="calc-slider-discount">20% OFF</span>
+          </div>
+          <div class="calc-slider-value-row">
+            <input type="range" class="calc-range" data-key="academia" min="0" max="500" step="10" value="0" />
+            <span class="calc-val-display" id="val-academia">R$ 0</span>
+          </div>
         </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Baratão Combustíveis</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span>1ª utilização: <span class="val">R$ 0,20/litro</span></span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span>Demais: <span class="val">R$ 0,07/litro</span></span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span>
-                1ª compra: <span class="coupon" data-code="masterclinprimeiracompra">📋 masterclinprimeiracompra</span>
-              </span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span>
-                Demais: <span class="coupon" data-code="masterclin">📋 masterclin</span>
-              </span>
-            </li>
-          </ul>
-        </div>
-      </article>
 
-      <!-- Pague Menos -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/pague-menos.png" alt="Farmácia Pague Menos" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">💊 Farmácia</div>
-        </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Farmácia Pague Menos</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span>Medicamentos de marca tarjados: <span class="val">até 15% OFF</span></span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span>Medicamentos genéricos tarjados: <span class="val">até 25% OFF</span></span>
-            </li>
-          </ul>
-        </div>
-      </article>
+      </div>
 
-      <!-- Thomas Jefferson -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/thomas-jefferson.png" alt="Casa Thomas Jefferson" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🗣️ Idiomas</div>
+      <!-- RESULT CARD -->
+      <div class="calc-result">
+        <p class="calc-result-label">Com o ZAF Club,<br />você pode economizar até:</p>
+        <div class="calc-result-val" id="calc-result-val" data-current="0">R$ 0</div>
+        <p class="calc-result-period">por mês</p>
+        <div class="calc-result-year">
+          <p class="calc-result-year-label">Economia anual estimada</p>
+          <div class="calc-result-year-val" id="calc-result-year">R$ 0</div>
         </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Casa Thomas Jefferson</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">15% OFF<small>cursos presenciais e online (exceto EAD)</small></span></span>
-            </li>
-          </ul>
+        <div class="calc-result-cta">
+          <a href="#plano" class="btn">Quero economizar →</a>
         </div>
-      </article>
-
-      <!-- CCAA -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/ccaa.png" alt="CCAA" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🗣️ Idiomas</div>
-        </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">CCAA</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val">50% OFF</span> nas mensalidades — 1º contrato</span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val">30% OFF</span> nas mensalidades — 2º contrato em diante</span>
-            </li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- Católica Brasília -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/colegio-catolica.png" alt="Colégio Católica Brasília" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🏫 Colégio</div>
-        </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Colégio Católica Brasília</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">15% OFF<small>nas mensalidades — ingressantes e rematrículas</small></span></span>
-            </li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- Colégio Sigma -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/colegio-sigma.png" alt="Colégio Sigma" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🏫 Colégio · 3 unidades</div>
-        </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Colégio Sigma</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span>Ed. Infantil: <span class="val">10% OFF</span></span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span>Fundamental Iniciais: <span class="val">12% OFF</span> · Finais: <span class="val">18% OFF</span></span>
-            </li>
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span>Ensino Médio: <span class="val">15% OFF</span></span>
-            </li>
-          </ul>
-          <p style="font-size:11px;color:var(--muted);margin-top:10px">Unidades: Águas Claras · 912 Sul · Asa Norte</p>
-        </div>
-      </article>
-
-      <!-- Gran Cursos -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/gran-cursos.png" alt="Gran Cursos Online" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">💻 Cursos Online</div>
-        </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Gran Cursos Online</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">30% OFF<small>em todos os cursos online</small></span></span>
-            </li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- Cinemark -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/cinemark.png" alt="Cinemark" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🎬 Cinema</div>
-        </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Cinemark</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">R$ 24,20<small>Ingresso virtual 2D — salas convencionais (+R$&nbsp;1,90 de taxa)</small></span></span>
-            </li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- Kinoplex -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/kinoplex.png" alt="Kinoplex" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🎬 Cinema</div>
-        </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Kinoplex</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">R$ 19,00<small>Ingresso virtual 2D — salas convencionais (+R$&nbsp;1,90 de taxa)</small></span></span>
-            </li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- Casas Bahia -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/casas-bahia.png" alt="Casas Bahia" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">🏠 Varejo Online</div>
-        </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Casas Bahia</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">até 25% OFF<small>no hotsite exclusivo da parceria</small></span></span>
-            </li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- Centauro -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/centauro.png" alt="Centauro" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">⚽ Esportes</div>
-        </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Centauro</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">10% OFF<small>na seleção especial do site</small></span></span>
-            </li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- Netshoes -->
-      <article class="partner-card">
-        <div class="card-img">
-          <img src="assets/images/parceiros/netshoes.png" alt="Netshoes" loading="lazy" decoding="async" width="600" height="300" />
-          <div class="card-cat-badge">👟 Esportes</div>
-        </div>
-        <div class="card-body">
-          <h3 class="card-partner-name">Netshoes</h3>
-          <ul class="card-benefits">
-            <li class="card-benefit">
-              <div class="benefit-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <span><span class="val-big">até 60% OFF<small>+ desconto adicional exclusivo da parceria</small></span></span>
-            </li>
-          </ul>
-        </div>
-      </article>
+        <p class="calc-result-note">*Valores estimados com base nos descontos médios dos parceiros ZAF Club.</p>
+      </div>
 
     </div>
-  </section>
+  </div>
+</section>
 
-</main>
+<!-- ════ PRICING ═══════════════════════════════════════════ -->
+<section class="section pricing-section" id="plano">
+  <div class="section-inner">
+    <div class="section-header" style="text-align:center">
+      <p class="section-label">Simples assim</p>
+      <h2 class="section-title">Um plano. Tudo incluso.</h2>
+      <p class="section-sub" style="margin:0 auto">Sem surpresas, sem letra miúda. Acesso completo a todos os benefícios ZAF Club.</p>
+    </div>
+    <div class="pricing-wrapper">
+      <div class="pricing-card">
+        <div class="pricing-card-top">
+          <div class="pricing-badge">⭐ Plano anual — mais popular</div>
+        </div>
+        <div class="pricing-card-body">
+          <div class="pricing-main">
+            <p class="pricing-period-label">12 parcelas de</p>
+            <div class="pricing-amount">
+              <span class="pricing-currency">R$</span>
+              <span class="pricing-value">14</span>
+              <span class="pricing-cents">,99</span>
+            </div>
+            <p class="pricing-freq">por mês no cartão</p>
+          </div>
+          <div class="pricing-divider"><span>ou</span></div>
+          <p class="pricing-avista">À vista por <strong>R$ 140,56</strong> — economize 2 meses</p>
+          <ul class="pricing-features">
+            <li class="pricing-feature">
+              <div class="pricing-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+              Acesso a +10.000 parceiros em todo o Brasil
+            </li>
+            <li class="pricing-feature">
+              <div class="pricing-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+              Válido para toda a família
+            </li>
+            <li class="pricing-feature">
+              <div class="pricing-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+              Ativação imediata após o pagamento
+            </li>
+            <li class="pricing-feature">
+              <div class="pricing-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+              Novos parceiros e benefícios todo mês
+            </li>
+            <li class="pricing-feature">
+              <div class="pricing-check"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+              Cancelamento a qualquer momento, sem multa
+            </li>
+          </ul>
+          <div class="pricing-cta-group">
+            <!-- TODO: substituir href pelo link de pagamento -->
+            <a href="#" class="btn btn-primary">Assinar por R$ 14,99/mês</a>
+            <a href="#" class="btn btn-secondary">Pagar à vista — R$ 140,56</a>
+          </div>
+          <p class="pricing-guarantee">🔒 Pagamento seguro · Sem taxa de adesão</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<!-- ════════════════════════════════════════ -->
-<!--                FOOTER                  -->
-<!-- ════════════════════════════════════════ -->
-<footer>
-  <img class="footer-logo" src="assets/images/logo.png" alt="ZAF Club" width="80" height="80" />
-  <p>© 2025 <strong>ZAF Club</strong> · Clube de Benefícios · Mais de <strong>+10.000 estabelecimentos parceiros</strong> em todo o Brasil.</p>
-  <p class="cnpj">ZAF DIGITAL GROUP LTDA · CNPJ 62.548.252/0001-07</p>
+<!-- ════ FAQ ════════════════════════════════════════════════ -->
+<section class="section faq-section" id="faq">
+  <div class="section-inner">
+    <div class="section-header" style="text-align:center">
+      <p class="section-label">Dúvidas frequentes</p>
+      <h2 class="section-title">Respondemos as principais perguntas</h2>
+    </div>
+    <div class="faq-grid">
+
+      <details class="faq-item">
+        <summary class="faq-q">
+          O ZAF Club é válido para toda a família?
+          <span class="faq-arrow"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </summary>
+        <div class="faq-a">Sim! Um único plano cobre você, seu cônjuge e seus filhos sem nenhum custo adicional. Toda a família aproveita os descontos.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q">
+          Como funciona para usar os descontos?
+          <span class="faq-arrow"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </summary>
+        <div class="faq-a">Após a contratação, você recebe acesso à plataforma ZAF Club com todos os parceiros e as instruções de como ativar cada benefício — direto pelo celular ou computador.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q">
+          Posso usar em qualquer estado do Brasil?
+          <span class="faq-arrow"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </summary>
+        <div class="faq-a">Sim! Temos mais de 10.000 parceiros ativos em todo o território nacional. Onde você estiver, terá acesso a algum benefício ZAF Club.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q">
+          Existe fidelidade ou multa por cancelamento?
+          <span class="faq-arrow"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </summary>
+        <div class="faq-a">Não. Você pode cancelar quando quiser, sem multa e sem burocracia. Sua satisfação é o que importa.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q">
+          O plano à vista é mais vantajoso?
+          <span class="faq-arrow"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </summary>
+        <div class="faq-a">Com certeza! No plano à vista você paga R$ 140,56, equivalente a 2 meses gratuitos em comparação ao valor mensal. É a melhor opção para quem quer economizar ao máximo.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-q">
+          Os descontos valem para compras online e físicas?
+          <span class="faq-arrow"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </summary>
+        <div class="faq-a">Depende do parceiro. Muitos oferecem benefícios tanto em lojas físicas quanto online — as condições de cada parceiro são descritas detalhadamente na plataforma.</div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════ FINAL CTA ══════════════════════════════════════════ -->
+<section class="final-cta">
+  <div class="final-cta-inner">
+    <h2>A decisão mais inteligente<br />do seu mês.</h2>
+    <p>Você já gasta na academia, na farmácia, na escola e no cinema. Com o ZAF Club, você gasta <strong style="color:#fff">muito menos</strong> — por apenas R$ 14,99 por mês.</p>
+    <div class="final-cta-actions">
+      <!-- TODO: substituir href pelo link de pagamento -->
+      <a href="#" class="btn btn-white btn-lg">Assinar agora — R$ 14,99/mês</a>
+    </div>
+  </div>
+</section>
+
+<!-- ════ FOOTER ═════════════════════════════════════════════ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <img class="footer-logo-img" src="/assets/images/logo.png" alt="ZAF Club" width="64" height="64" />
+        <p class="footer-desc">ZAF Club é um clube de benefícios com descontos reais em mais de 10.000 estabelecimentos em todo o Brasil.</p>
+      </div>
+      <div>
+        <p class="footer-col-title">Navegação</p>
+        <ul class="footer-links">
+          <li><a href="#parceiros">Parceiros</a></li>
+          <li><a href="#calculadora">Calculadora</a></li>
+          <li><a href="#plano">Planos</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-col-title">Contato</p>
+        <ul class="footer-links">
+          <li><a href="mailto:zafredbruno@gmail.com">zafredbruno@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 <strong>ZAF Club</strong> · Todos os direitos reservados.</p>
+      <p class="footer-copy">ZAF DIGITAL GROUP LTDA · CNPJ 62.548.252/0001-07</p>
+    </div>
+  </div>
 </footer>
 
-<script src="assets/js/main.js"></script>
+<script src="/assets/js/landing.js"></script>
 </body>
 </html>
