@@ -52,23 +52,16 @@ img { max-width: 100%; display: block; }
 }
 
 .site-header.scrolled {
-  background: rgba(255,255,255,.96);
+  background: rgba(8,13,26,.96);
   backdrop-filter: blur(12px);
-  box-shadow: 0 1px 0 var(--border);
+  box-shadow: 0 1px 0 rgba(255,255,255,.06);
 }
 
 .header-logo {
   height: 56px;
   width: 56px;
   object-fit: contain;
-  mix-blend-mode: normal;
   filter: brightness(0) invert(1);
-  transition: filter .3s;
-}
-
-.site-header.scrolled .header-logo {
-  filter: none;
-  mix-blend-mode: multiply;
 }
 
 .header-cta {
@@ -116,14 +109,6 @@ img { max-width: 100%; display: block; }
   background: rgba(255,255,255,.1);
 }
 
-.site-header.scrolled .btn-outline {
-  color: var(--blue);
-  border-color: var(--blue);
-}
-
-.site-header.scrolled .btn-outline:hover {
-  background: var(--blue-pale);
-}
 
 .btn-lg {
   padding: 15px 36px;
@@ -656,7 +641,7 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .pricing-card-body {
-  padding: 36px 40px 32px;
+  padding: 48px 40px 36px;
 }
 
 .pricing-main {
